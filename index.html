@@ -17,7 +17,7 @@
         <div class="header">
             <h1>대법원장의 임기는 6년으로 하며, 국무총리·국무위원 또는 정부위원은 국회나 그 위원회에 출석하여 국정처리상황을 보고하거나 의견을 진술하고 질문에 응답할 수 있다. 이 경우 그 명령에 의하여 개정 또는 폐지되었던 법률은 그 명령이 승인을 얻지 못한 때부터 당연히 효력을 회복한다. <br><br>국가원로자문회의의 의장은 직전대통령이 된다.</h1>
         </div>
-        <form action="get">
+        <form>
             <fieldset>
                 <h2>임기는</h2>
                 <div class="form-row">
@@ -35,12 +35,12 @@
                 <div class="form-row">
                     <div class="input-group">
                         <label for="mail">EMAIL</label>
-                        <input type="text" id="mail" name="email">
+                        <input type="email" id="mail" name="email">
                     </div>
 
                     <div class="input-group">
                         <label for="phoneNumber">PHONE NUMBER</label>
-                        <input type="text" id="phoneNumber" name="phoneNumber">
+                        <input type="text" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="phoneNumber" name="phoneNumber">
                     </div>
                 </div>
                 <div class="form-row">
@@ -56,8 +56,8 @@
                 </div>
             </fieldset>
             <div class="submit">
-                <button></button>
-                <h1></h1>
+                <button type="submit">Sign up</button>
+                <h1>Already have an account? <a href="youtube.com">Sign in</a></h1>
             </div>
         </form>
 

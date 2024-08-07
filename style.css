@@ -1,3 +1,12 @@
+@font-face {
+    font-family: laundryGothic;
+    src: url(asset/laundrygothic.woff);
+}
+
+* {
+    font-family: laundryGothic, Verdana;
+}
+
 body {
     display: flex;
     flex-direction: row;
@@ -42,11 +51,12 @@ body {
 
 .header h1 {
     margin: 0;
-    padding: 2rem 12rem 4rem 2rem;
+    padding: 2rem 12rem 2rem 2rem;
     align-self: flex-end;
     font-size: 18px;
     flex: 1;
     height: 100%;
+    color: #2b2b2b;
 }
 
 form {
@@ -60,8 +70,9 @@ form {
 fieldset > h2 {
     font-size: 24px;
     padding-left: 1.2rem;
-    padding-top: 0.3rem;
-    padding-bottom: 1rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.5rem;
+    color: #2b2b2b;
     margin: 0;
 }
 
@@ -74,7 +85,6 @@ form fieldset {
     margin: 0;
     box-shadow: 0 5px 5px 0 rgb(185, 185, 185);
 }
-
 
 form .submit {
     flex: 1;
@@ -99,11 +109,12 @@ form .input-group {
 
 .input-group input, .input-group label{
     width: 300px;
-    font-family: "Verdana";
+    font-family: laundryGothic;
 }
 
 .input-group label {
     font-size: 80%;
+    color:#646464;
 }
 
 .input-group input {
@@ -114,4 +125,33 @@ form .input-group {
     height: 30px;
     border: 1px solid;
     border-color: #d2e8f8;
+    font-family: laundryGothic;
+}
+
+.submit button {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    border: none;
+    background-color: #439eaa;
+    border-radius: 5px;
+    color:rgb(241, 232, 230);
+    width: 150px;
+    height: 40px;
+    font-family: laundryGothic;
+}
+
+.submit h1 {
+    font-size: 16px;
+    color:#666666;
+    margin: 1rem 0 0 2rem;
+}
+
+.submit a:link {
+    color:#439eaa;
+    text-decoration: none;
+}
+
+input:invalid {
+    border-color: #db1e1e;
+    color: #db1e1e;
 }
