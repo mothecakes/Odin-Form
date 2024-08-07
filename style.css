@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.side-panel {
+    padding: 0;
+    margin: 0;
+    min-width: 35%;
+    height: 100vh;
+    background: #fff url("asset/chaeyoung.jpg");
+    background-size: cover;
+}
+
+.banner {
+    margin: 40% 0 auto 0;
+    background-color: rgba(140, 70, 106, 0.45);
+    min-width: 100%;
+    min-height: 25%;
+    display: flex;
+}
+
+.logo {
+    margin: auto 10%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.login {
+    background-color: #f0e6f1;
+}
+
+.header {
+    min-height: 35vh;
+    max-height: 35vh;
+    margin: 0;
+    display: flex;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 2rem 12rem 4rem 2rem;
+    align-self: flex-end;
+    font-size: 18px;
+    flex: 1;
+    height: 100%;
+}
+
+form {
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+}
+
+fieldset > h2 {
+    font-size: 24px;
+    padding-left: 1.2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+form fieldset {
+    position: relative;
+    flex: 1;
+    border: 0px;
+    background-color: #f0f3f6;
+    min-height: 30vh;
+    margin: 0;
+    box-shadow: 0 5px 5px 0 rgb(185, 185, 185);
+}
+
+
+form .submit {
+    flex: 1;
+    background-color: #f0e6f1;
+    min-height: 35vh;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+form .input-group {
+    position: relative;
+    left: 1.3rem;
+    width: 250px;
+    margin: 0 100px 0 0;
+    display: flex;
+    flex-direction: column ;
+}
+
+.input-group input, .input-group label{
+    width: 300px;
+    font-family: "Verdana";
+}
+
+.input-group label {
+    font-size: 80%;
+}
+
+.input-group input {
+    appearance: none;
+    border-radius: 5px;
+    padding-left: 2px;
+    font-size: 14px;
+    height: 30px;
+    border: 1px solid;
+    border-color: #d2e8f8;
+}
